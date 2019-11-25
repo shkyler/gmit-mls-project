@@ -19,18 +19,28 @@ The dependencies for project are:
 * numpy
 * pandas
 * scipy.stats
+* tensorflow
 * keras
 * [Jupyter Notebooks](https://jupyter.org/)
 
 If you are unsure whether ot not you have these dependant libraries, it is recommended that the latest version of [Anaconda](https://www.anaconda.com/) is installed to ensure that all dependant software is installed and up to date.
 
+Note that tensorflow and keras are not part of the standard anaconda library. Once you have Anaconda installed and up to date, you can install these with the following commands:
+Tensorflow
+```
+conda install -c conda-forge tensorflow 
+```
+Keras
+```
+conda install -c conda-forge keras
+```
 ### Instructions for running the software
 
 The software can be downloaded and run on a machine as follows:
 
 * Clone the repository with the following command
 ```
-git clone https://github.com/shkyler/gmit-mls-projec.git
+git clone https://github.com/shkyler/gmit-mls-project.git
 ```
 * Run Jupyter Notebooks from the repository with the following command:
 ```
